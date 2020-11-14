@@ -1,0 +1,238 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#line {
+    color: white;
+    margin-top: 2%;
+    height: 2vh;
+    background-image:linear-gradient(0deg, rgba(255,255,255,1) 26%, rgba(195,195,195,0.5578606442577031) 100%);
+    
+}
+
+
+#logoText{
+    text-align: center;
+    margin-top: 2% ;
+    font-size: 4em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    margin-top: 5%;
+}
+
+#content{
+    display: flex;
+    justify-content: space-around; 
+    width: 60%;
+}
+
+#text{
+    margin-top: 10%;
+    font-size: 5em;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+#blackBox{
+    box-sizing: border-box;
+    right: auto;
+    left: auto;
+    transform:translate(50%);
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin: 20px;
+
+}
+#mainNavBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+#navBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+#navBox li{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+/*
+#img{
+    left: 20%;
+    top: 40%;
+}
+ /* NAVBAR 
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height:8vh ;
+    background-color: rgb(38, 38, 38);
+    font-family: 'Poppins', sans-serif;
+}
+/*
+#uvod{
+    background-color:rgb(38, 38, 38);
+    width: 200em !important;
+    height: 75em !important;
+
+}
+#about{
+    background-color: white;
+    width: 200em;
+    height: 100em;
+}
+
+.logo{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+  width: 8%;
+  align-items: center;
+
+}
+
+#logo_img{
+   width: 10vh;
+   height: 10vh;
+   position: absolute;
+   left: 50%;
+   top: 5%;
+   transform: translate(-50%, -50%);
+
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+.nav-links li {
+    list-style: none;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.burger {
+    display: none;
+}
+.burger div{
+    width: 27px;
+    height: 3px;
+    margin: 5px;
+    background-color: white;
+    transition: all 0.3s ease;
+    border-radius: 25px;
+}
+@media screen and (max-width: 1900px){
+    .logo{
+        width: 26%;
+    }
+}
+@media screen and (max-width: 1400px){
+    .nav-links {
+        width: 30%;
+    }
+    .logo{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 900px){
+    .nav-links {
+        width: 40%;
+    }
+    .logo{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 800px){   š
+    html, body {
+        overflow-x: hidden;
+      }
+
+    .nav-links{
+     position: absolute;
+     right: 0px;
+     height: 92vh;
+     top: 8vh;
+    
+     background-color:rgb(38, 38, 38);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 50%;
+     transform: translateX(100%);
+     transition: transform 0.3s ease-in;
+    }
+    .nav-links li {
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+    }
+}
+.nav-active{
+    transform: translateX(0%);
+}
+
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+
+}
+.toggle .line2 {
+    opacity: 0;
+}
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+.resize-animation-stopper * {
+    transition: none !important;
+    animation: none !important;
+}
+*/ 
